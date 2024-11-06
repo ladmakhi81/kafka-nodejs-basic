@@ -1,0 +1,18 @@
+{
+  "name": "microservice-practicing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "create-topic": "node ./admin.js",
+    "start:producer": "node ./producer.js",
+    "start:consumer1": "node ./consumer-1.js",
+    "start:consumer2": "node ./consumer-2.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
+}
